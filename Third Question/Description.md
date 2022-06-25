@@ -21,4 +21,4 @@
 - OOP kodu <a href="">link</a>
 - UML Class Diagram:
 
-<img src="" />
+<img src="https://github.com/EnUygunPatikaBootCamp/week-2-EagleGazii/blob/064ce1e1cab17be2b17d802c1957d7a1b4ddc690/Third%20Question/UML%20of%20questions%203.png" />
