@@ -23,6 +23,9 @@ plakaNo, marka, model, tekerlekSayisi, kanatAcikligi
 araba, motorsiklet, uçak
 -	Oluşturulan bu sınıflara yukarıda tanımlanan öznitelikler (property) değer olarak girilmeli, aşağıdaki gibi ekrana bastırabilmelidir:
 
+Sorunun cevabını <a href="https://github.com/EnUygunPatikaBootCamp/week-2-EagleGazii/blob/d5b5c7cbcafdc3209b0a47e9d13a5e4e25477842/Third%20Question/README.md">anlatımı</a>, 
+  kodu <a href="https://github.com/EnUygunPatikaBootCamp/week-2-EagleGazii/blob/d5b5c7cbcafdc3209b0a47e9d13a5e4e25477842/Third%20Question/oop.php">oop.php</a>
+
 Araba taşıtına ait öznitelikler şu şekildedir:
 - Plaka No: 06 ARAC 06
 - Marka: Mercedes
@@ -42,8 +45,7 @@ Uçak taşıtına ait öznitelikler şu şekildedir:
 
 Yukarıda verilen değerler örnektir. Değerler her taşıt için rastgele girilebilir.
 
-Sorunun cevabını <a href="https://github.com/EnUygunPatikaBootCamp/week-2-EagleGazii/blob/d5b5c7cbcafdc3209b0a47e9d13a5e4e25477842/Third%20Question/Description.md">anlatımı</a>, 
-  kodu <a href="https://github.com/EnUygunPatikaBootCamp/week-2-EagleGazii/blob/d5b5c7cbcafdc3209b0a47e9d13a5e4e25477842/Third%20Question/oop.php">oop.php</a>
+
 
 
 
