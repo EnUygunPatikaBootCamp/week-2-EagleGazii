@@ -1,0 +1,59 @@
+### Soru 2: LINUX COMMANDS 
+
+- **tail** - bir veya daha fazla dosyanın son on satırını görüntülemek için kullanılır.
+    - tail <file name>   
+    - **options** 
+        - tail -n <number> <file name> -> {-n ile dosyanın sondan kaç eleman göstermek için kullanılır}
+        - tail -c <number> <file name> -> {-c <number> ile dosyanın sondan bytes sayısına göre gösterir}
+        - tail -b <number> <file name> -> {-b 512 bytes}
+        - tail -kb <number> <file name> -> {-kb 1000 bytes}
+        - tail -k <number> <file name> -> {-k 1024 bytes}
+        - tail -MB <number> <file name> -> {-MB 1000000 bytes}
+        - tail -f <file name> -> {-f dosyayı değişiklikler izlemek için}
+    - Birden fazla dosya için de kullanılır:
+        - tail <file name> <file name>
+- **cat** - Bir dosyanın içeriğini görüntülemek, bir dosyadan diğerine içerik kopyalamak, birden fazla dosyanın içeriğini birleştirmek, satır numarasını görüntülemek, satırın sonunda $ görüntülemek vb. için kullanılabilir.
+    - cat <fileName> 
+    - **options** 
+        - cat > <file name> -> {Dosya oluşturmak için}
+        - cat >> <file name> -> {Bir Dosyanın İçeriğini sonuna bir şey ekle}
+        - cat <older file name> > <new file name> -> {Dosyayı kopyalamak için}
+        - cat <file name1> <file name2>....  > <new file name> -> {Dosyaları birleştirmek}
+        - cat - <file name1> <file name2>. . . . > <new filename>    -> {Birden çok dosya birleştirilirken yeni bir satır eklenecek}
+        - cat -n <file name> -> {Satır numaralarını görüntülemek için}
+        - cat -b <file name> -> {Bir dosyayı kaldırmak (silmek) için}
+        - cat -e <file name> -> {Her satırın sonunda bir '$' işareti görüntüler}
+        - cat << EOF -> {Dosyanın sonunda bir bitiş işareti görüntüler}
+- **sudo** - Linux sudo komutu, Super Kullanıcı Yap (Super User Do) anlamına gelir. Genellikle, süper kullanıcının yürütmesine izin verilen birkaç komutun öneki olarak uygulanır. Komutun önüne diğer komutlarla birlikte eklersek, bu komutu yüksek ayrıcalıklarla yürütür. 
+    - sudo OPTION... COMMAND   
+    - **options** 
+        - sudo -V -> {version anlamına gelir}
+        - sudo -l -> {list anlamına gelir}
+        - sudo -h veya sudo -help -> {yardım anlamına gelir}
+        - sudo -v -> {Sudo komutu, kullanıcının zaman damgasını güncelleyecekse, doğrulama, gerekirse kullanıcının şifresini ister}
+        - sudo -k veya sudo -K -> {Bu seçenek, kullanıcının sudo zaman damgasını geçersiz kılar}
+        - sudo -b -> {Bu seçenek, sağlanan komutları arka planda yürütmesi için sudo komutuna bilgi verir}
+        - sudo -p -> {prompt}
+        - sudo -n -> {Bu seçenek komutu şifre sormadan çalıştıracaktır}
+        - sudo -u -> {kullanıcı}
+        - sudo -H -> {home}
+        - sudo -s -> {shell}
+        - sudo -S -> {stdin}
+        - sudo -  -> {Bu seçenek, sudo komutunun işlemeyi durdurması gerektiğini gösterir}
+        - sudo -a -> {Kimlik doğrulama türü anlamına gelir}
+- **touch** - touch komutu, boş dosyalar oluşturmanın bir yoludur. Touch komutu yardımıyla her dosyanın değişiklik ve erişim zamanını güncelleyebilirsiniz.
+    - touch <file name>     
+    - **options** 
+        - touch -a <file name> -> {Dosya erişim ve değiştirme zamanını değiştirmek için}
+        - touch -m <file name> -> {Yalnızca bir dosyanın zamanını değiştirmek için kullanılır}
+        - touch -r <file name1> <file name2> -> {Bir dosyanın zamanını diğer dosyaya referansla güncellemek için}
+        - touch -t YYYYMMDDhhmm.ss <file name> -> {Zaman belirterek bir dosya oluşturmak için}
+        - touch -c <file name> -> {n boş dosya oluşturmaz}
+- **mkdir** -  komutu yardımı ile sisteminizde istediğiniz yerde yeni bir dizin (Directory) oluşturabilirsiniz.
+- mkdir <dirname>     
+    - **options** 
+        - mkdir <dirname1> <dirname2> <dirname3> ... -> {Aynı anda birden fazla dizin de oluşturabilirsiniz}
+        - mkdir -p -> {Bir dizinin alt dizinlerini (Directory) oluşturabilirsiniz}
+        - mkdir -v <file name> ... -> {Oluşturulan her yeni dosyayla birlikte bir mesaj yazdıracaktır}
+        - mkdir -m -mode=MODE -> {Erişim ayrıcalığını ayarlar}
+
